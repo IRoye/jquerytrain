@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动窗口</title>
+    <script type="text/javascript" src="js/jquerywin.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/win.css">
+</head>
+<body>
+<a onclick="showwin()" href="#">显示浮动窗口</a>
+<!--用div标签来表示页面中的一个弹出的窗口-->
+<div id="win">
+<div id="title">标题栏
+<span id="close" onclick="hide()">X</span>
+</div>
+    <div id="content">内容</div>
+</div>
+</body>
+</html>
